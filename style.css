@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+header {
+  background-color: #333;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  text-align: center;
+}
+nav {
+  background-color: bisque;
+  overflow: hidden;
+}
+nav a {
+  float: right;
+  color: #333;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  transition: background-color 0.3s ease;
+}
+nav a:hover {
+  background-color: rgb(189, 142, 153);
+  color: #333;
+}
